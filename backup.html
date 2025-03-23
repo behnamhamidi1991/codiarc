@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOX ICON -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/utilities.css" />
+    <link rel="stylesheet" href="./src/css/swiper.css" />
+    <link rel="stylesheet" href="./src/css/ligh.css" />
+
+    <!-- ICON -->
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>آموزش برنامه نویسی و توسعه</title>
+  </head>
+  <body dir="rtl">
+    <!-- HEADER -->
+    <header id="header" class="header">
+      <div class="header-right">
+        <div class="header-logo">
+          <a href="">
+            <img src="./src/assets/favicon/logo-png-fit.png" alt="logo" />
+          </a>
+        </div>
+        <div class="header-menu">
+          <div class="hamburger">
+            <button id="hamburger">
+              <i class="bx bx-menu"></i>
+            </button>
+          </div>
+          <ul>
+            <li>
+              <a href="#">صفحه اصلی</a>
+            </li>
+            <li>
+              <button id="header-dropdown" class="header-dropdown">
+                <i class="bx bx-chevron-down"></i>
+                دوره ها
+              </button>
+            </li>
+            <li>
+              <a href="#">ویدیوها</a>
+            </li>
+            <li>
+              <a href="#">وبلاگ</a>
+            </li>
+            <li>
+              <a href="#">کلاس آنلاین</a>
+            </li>
+            <li>
+              <a href="#">تماس</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-left">
+        <!-- User -->
+        <div class="user">
+          <a href="">
+            <i class="bx bxs-user-circle"></i>
+          </a>
+        </div>
+        <!-- Dark Light Toggle -->
+        <div class="light-dark-toggle">
+          <button>
+            <i class="bx bx-sun"></i>
+          </button>
+        </div>
+        <!-- Cart -->
+        <div class="cart">
+          <a href="">
+            <i class="bx bxs-cart-alt"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- header-courses -->
+    <div class="header-course-menu-container">
+      <div class="header-courses-menu">
+        <ul class="courses">
+          <li>
+            <a href="#">
+              <i class="bx bxs-caret-right-circle"></i>
+              دوره های آنلاین
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxl-microsoft"></i>
+              کلاسهای آنلاین
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxs-webcam"></i>
+              بوت کمپ
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxs-timer"></i>
+              کرش کورس ها
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxs-gift"></i>
+              دوره های رایگان
+            </a>
+          </li>
+        </ul>
+
+        <div class="header-course-wrapper">
+          <div class="header-course">
+            <a href="">
+              <img
+                src="./src/assets/images/learning/Resized-blog-thumbnail-26.jpg"
+                width="200px"
+                alt=""
+              />
+              <div class="header-course-details">
+                <h3>مسیر و نقشه راه فرانت</h3>
+                <h2>دوره های آموزشی فرانت</h2>
+                <div class="info-box">
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>45</span>
+                  </div>
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>218</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="header-course">
+            <a href="">
+              <img
+                src="./src/assets/images/learning/Thoughtful young programmer coding on computer in the evening at home-1-1.webp"
+                width="200px"
+                alt=""
+              />
+              <div class="header-course-details">
+                <h3>مسیر و نقشه راه بک اند</h3>
+                <h2>مسیر بک اند رو از اینجا شروع کن</h2>
+                <div class="info-box">
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>45</span>
+                  </div>
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>218</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-wrapper">
+        <div class="hero-title">
+          <h1>به کدیارک خوش آمدید</h1>
+          <h2>مسیر برنامه نویسی رو از همینجا شروع کنید</h2>
+        </div>
+        <div class="search-bar">
+          <form>
+            <input type="text" placeholder="جستوجوی مطلب" />
+            <button>
+              <i class="bx bx-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="application-wrapper">
+      <div class="testimonials">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/man1.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/man2.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/woman1.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/man2.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/woman10.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/woman9.webp"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/man8.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/man7.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/woman3.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/woman2.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/woman5.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/woman1.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/man14.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/man13.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/man12.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./src/assets/images/people/woman7.jpg"
+                width="50px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="main-content" class="main-content">
+        <div class="main-content-right">
+          <div class="main-content-right-slider">
+            <div class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="./src/assets/images/courses/laravel.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./src/assets/images/courses/laravel.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+        <div class="main-content-left"></div>
+      </section>
+    </div>
+
+    <script>
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/swiper.js"></script>
+  </body>
+</html>

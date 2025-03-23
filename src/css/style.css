@@ -1,0 +1,538 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "iranYekan";
+  src: url("../assets/fonts/iranyekanwebregular.ttf");
+}
+@font-face {
+  font-family: "iranYekanBold";
+  src: url("../assets/fonts/iranyekanwebbold.ttf");
+}
+@font-face {
+  font-family: "iranYekanBlack";
+  src: url("../assets/fonts/iranyekanwebextrablack.ttf");
+}
+@font-face {
+  font-family: "iranYekanExtraBlack";
+  src: url("../assets/fonts/iranyekanwebextrablack.ttf");
+}
+@font-face {
+  font-family: "iranYekanThin";
+  src: url("../assets/fonts/iranyekanwebthin.ttf");
+}
+
+@font-face {
+  font-family: "faNum";
+  src: url("../assets/fonts/IRANYekanXFaNum-Regular.ttf");
+}
+
+@font-face {
+  font-family: "faNumBold";
+  src: url("../assets/fonts/IRANYekanXFaNum-Bold.ttf");
+}
+
+:root {
+  --bg-color: #060818;
+  --primary-color: #101320;
+  --primary-blue: #4361ee;
+  --secondary-blue: #152143;
+  --primary-sky: #2196f3;
+  --secondary-sky: #0b2f52;
+  --primary-green: #00ab55;
+  --secondary-green: #0c272b;
+  --primary-yellow: #e2a03f;
+  --secondary-yellow: #282625;
+  --primary-red: #e7515a;
+  --secondary-red: #2c1c2b;
+  --primary-purple: #805dca;
+  --secondary-purple: #1d1a3b;
+  --primary-gray: #3b3f5c;
+  --secondary-gray: #181e2e;
+  --light-color: #fff;
+  --secondary-light: #eee;
+  --primary-text: #848ca8;
+  --secondary-text: #c2c6d3;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--secondary-text);
+  font-family: "iranYekan";
+}
+
+/* HEADER */
+
+#header {
+  height: 60px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15%;
+  z-index: 2000;
+  position: relative;
+}
+
+#header .header-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: tomato; */
+}
+
+#header .header-right .header-logo a {
+  display: flex;
+  align-items: center;
+}
+
+#header .header-right .header-logo img {
+  width: 25px;
+}
+
+#hamburger {
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  color: var(--primary-text);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 9px;
+  transition: all ease-in-out 0.1s;
+  font-family: "iranYekan";
+  gap: 3px;
+}
+
+#header .header-right .header-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#header .header-right .header-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#header .header-right .header-menu ul li a {
+  font-size: 14px;
+  color: var(--primary-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 9px;
+  transition: all ease-in-out 0.1s;
+  font-family: "iranYekan";
+  gap: 3px;
+}
+
+#header .header-right .header-menu ul li a:hover {
+  color: var(--primary-blue);
+}
+
+#header .header-right .header-menu .header-dropdown {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  color: var(--primary-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 9px;
+  transition: all ease-in-out 0.1s;
+  font-family: "iranYekan";
+  gap: 3px;
+}
+
+#header .header-right .header-menu .header-dropdown i {
+  font-size: 18px;
+}
+
+#header .header-right .header-menu .header-dropdown:hover {
+  color: var(--primary-blue);
+}
+
+.rotated {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease; /* Smooth rotation effect */
+}
+
+/* Header left */
+#header .header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#header .header-left .user a {
+  color: var(--primary-text);
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header .header-left .user a:hover {
+  color: var(--primary-blue);
+}
+
+#header .header-left .light-dark-toggle button {
+  color: var(--primary-text);
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#header .header-left .light-dark-toggle button:hover {
+  color: var(--primary-blue);
+}
+
+#header .header-left .cart a {
+  color: var(--primary-text);
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header .header-left .cart a:hover {
+  color: var(--primary-blue);
+}
+
+/* Header Courses */
+.header-courses-menu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  gap: 20px;
+  padding: 25px;
+  width: fit-content;
+  position: absolute;
+  right: 240px;
+  z-index: 1;
+  border-radius: 0 0 10px 10px;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.header-courses-menu .courses {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  /* height: 200px; */
+}
+
+.header-courses-menu .courses li a {
+  color: var(--secondary-text);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  transition: all ease-in-out 0.1s;
+}
+
+.header-courses-menu .courses li a i {
+  font-size: 18px;
+}
+
+.header-courses-menu .courses li a:hover {
+  color: var(--primary-blue);
+}
+
+/* Header Course */
+
+.header-course-wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.header-course {
+  position: relative;
+}
+
+.header-course img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  transition: all ease-in-out 0.1s;
+}
+
+.header-course .header-course-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  bottom: 0;
+  padding: 20px 25px;
+  color: var(--light-color);
+  display: none;
+  transition: all ease-in-out 0.1s;
+}
+
+.header-course .header-course-details h2 {
+  font-size: 14px;
+}
+
+.header-course .header-course-details h3 {
+  font-size: 10px;
+  background-color: var(--secondary-gray);
+  padding: 4px 8px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.header-course:hover img {
+  filter: brightness(20%);
+}
+
+.header-course:hover .header-course-details {
+  display: flex;
+}
+
+/* HERO */
+#hero {
+  background-image: url("../assets/images/photo-1614624532983-4ce03382d63d.jpg");
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.84);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-wrapper {
+  width: 800px;
+}
+
+#hero .hero-title {
+  text-align: center;
+}
+
+#hero .hero-title h1 {
+  font-family: "iranYekanBlack";
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+#hero .hero-title h2 {
+  font-size: 22px;
+}
+
+#hero .search-bar {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .search-bar form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  font-family: "iranYekan";
+  position: relative;
+}
+
+#hero .search-bar form input {
+  width: 85%;
+  border: none;
+  border-radius: 6px;
+  padding: 15px;
+  font-family: "iranYekan";
+  outline: none;
+}
+
+#hero .search-bar form button {
+  border: none;
+  border-radius: 6px;
+  padding: 9px;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  left: 64px;
+}
+
+#hero .search-bar form button i {
+  font-size: 20px;
+}
+
+/* APPLICATION WRAPPER */
+
+.app-wrapper {
+  padding: 0 15%;
+}
+
+/* MAIN CONTENT */
+
+#course-slider {
+  margin: 50px 0;
+}
+
+.course-slider-container {
+}
+
+.course-slider-container .course-slider-box {
+}
+
+.course-slider-container .course-slider-box .course-slider-box-image img {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-color: var(--primary-color);
+  border-radius: 0 0 12px 12px;
+  cursor: grab;
+}
+
+.swiper-slide .slider-image {
+  width: 100%;
+}
+
+.swiper-slide .slider-image img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px 12px 0 0;
+}
+
+.swiper-slide .slider-details {
+  padding: 15px 20px;
+}
+
+.swiper-slide .slider-details .slider-details-title h2 {
+  color: var(--light-color);
+  font-family: "iranYekanBold";
+  font-size: 19px;
+}
+
+.swiper-slide .slider-details .slider-details-title p {
+  color: var(--primary-text);
+  font-family: "iranYekanBold";
+  font-size: 14px;
+  line-height: 2;
+  margin: 10px 0;
+}
+
+.price-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-status .course-price {
+  font-family: "faNum";
+}
+
+.price-status .course-price .main-price {
+  color: var(--primary-red);
+  text-decoration: line-through;
+  font-size: 20px;
+}
+
+.price-status .course-price .off-price {
+  color: var(--light-color);
+  font-family: "faNumBold";
+  font-size: 25px;
+}
+
+.price-status .course-status-done {
+  background-color: var(--secondary-green);
+  color: var(--primary-green);
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-family: "iranYekanBold";
+}
+
+.price-status .course-status-progress {
+  background-color: var(--secondary-yellow);
+  color: var(--primary-yellow);
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-family: "iranYekanBold";
+}
+
+.price-status .course-status-pending {
+  background-color: var(--secondary-red);
+  color: var(--primary-red);
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-family: "iranYekanBold";
+}
+
+.course-button {
+  margin-top: 20px;
+}
+
+.course-button a {
+  width: 100%;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-color);
+  padding: 12px;
+  gap: 10px;
+}
+
+.course-button a:hover {
+  background-color: var(--secondary-gray);
+}

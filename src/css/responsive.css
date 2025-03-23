@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "iranYekan";
+  src: url("../assets/fonts/iranyekanwebregular.ttf");
+}
+@font-face {
+  font-family: "iranYekanBold";
+  src: url("../assets/fonts/iranyekanwebbold.ttf");
+}
+@font-face {
+  font-family: "iranYekanBlack";
+  src: url("../assets/fonts/iranyekanwebextrablack.ttf");
+}
+@font-face {
+  font-family: "iranYekanExtraBlack";
+  src: url("../assets/fonts/iranyekanwebextrablack.ttf");
+}
+@font-face {
+  font-family: "iranYekanThin";
+  src: url("../assets/fonts/iranyekanwebthin.ttf");
+}
+
+@font-face {
+  font-family: "faNum";
+  src: url("../assets/fonts/IRANYekanXFaNum-Regular.ttf");
+}
+
+:root {
+  --bg-color: #060818;
+  --primary-color: #101320;
+  --primary-blue: #4361ee;
+  --secondary-blue: #152143;
+  --primary-sky: #2196f3;
+  --secondary-sky: #0b2f52;
+  --primary-green: #00ab55;
+  --secondary-green: #0c272b;
+  --primary-yellow: #e2a03f;
+  --secondary-yellow: #282625;
+  --primary-red: #e7515a;
+  --secondary-red: #2c1c2b;
+  --primary-purple: #805dca;
+  --secondary-purple: #1d1a3b;
+  --primary-gray: #3b3f5c;
+  --secondary-gray: #181e2e;
+  --light-color: #fff;
+  --secondary-light: #eee;
+  --primary-text: #848ca8;
+  --secondary-text: #c2c6d3;
+}
+
+@media screen and (max-width: 1245px) {
+  .header-courses-menu {
+    right: 140px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #header {
+    padding: 10px 8%;
+  }
+
+  .header-courses-menu {
+    right: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 803px) {
+  .hero-wrapper {
+    width: 100%;
+  }
+
+  /* HERO */
+  #hero {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  #hamburger {
+    display: flex;
+  }
+
+  #header .header-right .header-menu ul {
+    display: none;
+  }
+
+  .header-course-menu-container {
+    display: none;
+  }
+
+  #hero .search-bar form button {
+    left: 54px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  #hero .hero-title h1 {
+    font-size: 42px;
+  }
+
+  #hero .hero-title h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  #hero .search-bar form button {
+    left: 44px;
+  }
+
+  #hero .hero-title h1 {
+    font-size: 36px;
+  }
+
+  #hero .hero-title h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  #hero .search-bar form button {
+    left: 34px;
+  }
+
+  #hero .hero-title h1 {
+    font-size: 28px;
+  }
+
+  #hero .hero-title h2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  #hero .search-bar form button {
+    left: 28px;
+  }
+}

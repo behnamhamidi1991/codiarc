@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONT AWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/utilities.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/ligh.css" />
+
+    <!-- ICON -->
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>آموزش برنامه نویسی و توسعه</title>
+  </head>
+  <body dir="rtl">
+    <!-- HEADER -->
+    <header id="header" class="header">
+      <div class="header-logo-navbar">
+        <div class="logo">
+          <a href="#">
+            <img src="./assets/icons/main-icon.png" width="25px" alt="logo" />
+          </a>
+        </div>
+        <div class="hamburger">
+          <button id="hamburger" class="hamburger-button">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+        <ul class="navbar">
+          <li>
+            <a href="#">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              خانه
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-book" aria-hidden="true"></i>
+              دوره ها
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-blog" aria-hidden="true"></i>
+              وبلاگ
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-youtube"></i>
+              ویدیو
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              تماس
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="header-user-section">
+        <div class="shopping-cart">
+          <a href="">
+            <span>3</span>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <!-- Login and Register /Guest/ -->
+        <div class="login-register-container">
+          <a href="" class="btn register-btn">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            ثبت نام
+          </a>
+          <a href="" class="btn login-btn">
+            <i class="fa fa-sign-in" aria-hidden="true"></i>
+            ورود به اکانت
+          </a>
+        </div>
+        <!-- Shopping Cart -->
+
+        <!-- Dashboard /Auth/ -->
+        <!-- <div class="dashboard">
+            <a href="">
+
+                <i class="fa fa-tachometer" aria-hidden="true"></i>
+                پنل کاربری
+            </a>
+        </div>
+
+         <div class="dashboard-logout">
+        
+            <div class="logout">
+                <form action="">
+                    <button class="button logout">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                        خروج از اکانت
+                    </button>
+                </form>
+            </div>
+         </div> -->
+      </div>
+    </header>
+
+    <!-- TOP SECTION -->
+    <section id="top-section" class="top-section">
+      <div class="top-section-top">
+        <h1>به کدینجا خوش آمدید</h1>
+        <h2>مسیر برنامه نویسی و توسعه وب رو از اینجا شروع کنید</h2>
+        <p>
+          برگزاری دوره های آنلاین، کرش کورس ها و بوت کمپ های کاربردی در حوزه
+          برنامه نویسی و توسعه و امنیت
+        </p>
+      </div>
+      <div class="top-section-searchbar">
+        <div class="searchbar">
+          <form action="">
+            <input type="text" placeholder="دنبال مطلب خاصی می گردید؟ جستوجو کنید" >
+            <button>
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses -->
+    <section id="main-content" class="main-content">
+      <div class="section-header">
+        <div class="section-header-title">
+          <h3>دوره های وبسایت</h3>
+          <h2>شروع مسیر برنامه نویسی</h2>
+        </div>
+        <div class="section-header-nav">
+          <a href="#">
+            مشاهده سایر دوره ها
+            <i class="fas fa-arrow-circle-left"></i>
+          </a>
+        </div>
+      </div>
+      <div id="courses" class="courses">
+        <!-- BOX -->
+        <div class="course-box">
+          <div class="course-box-image">
+            <img src="./assets/images/css1.png" alt="" />
+          </div>
+          <div class="course-box-details">
+            <div class="course-box-details-top">
+              <h2>آموزش جامع HTML & CSS</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- middle -->
+            <div class="course-box-details-middle">
+              <div class="course-box-details-middle-box">
+                <div class="discount-price">480000</div>
+                <div class="price">265000</div>
+              </div>
+              <div class="course-box-details-middle-box">
+                <div class="completed">دوره تکمیل شده</div>
+              </div>
+            </div>
+            <!-- details -->
+            <div class="course-box-details-details">
+              <div class="course-box-details-details-students">
+                <i class="fas fa-graduation-cap"></i>
+                <span>241</span>
+              </div>
+              <div class="course-box-details-details-category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <span>فرانت اند</span>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="course-box-details-bottom">
+              <a href="#">
+                مشاهده و شروع دوره
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- BOX -->
+        <div class="course-box">
+          <div class="course-box-image">
+            <img src="./assets/images/js.jpg" alt="" />
+          </div>
+          <div class="course-box-details">
+            <div class="course-box-details-top">
+              <h2>دوره جامع آموزش JavaScript</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- middle -->
+            <div class="course-box-details-middle">
+              <div class="course-box-details-middle-box">
+                <div class="discount-price">480000</div>
+                <div class="price">265000</div>
+              </div>
+              <div class="course-box-details-middle-box">
+                <div class="completed">دوره تکمیل شده</div>
+              </div>
+            </div>
+            <!-- details -->
+            <div class="course-box-details-details">
+              <div class="course-box-details-details-students">
+                <i class="fas fa-graduation-cap"></i>
+                <span>241</span>
+              </div>
+              <div class="course-box-details-details-category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <span>فرانت اند</span>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="course-box-details-bottom">
+              <a href="#">
+                مشاهده و شروع دوره
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- BOX -->
+        <div class="course-box">
+          <div class="course-box-image">
+            <img src="./assets/images/react.png" alt="" />
+          </div>
+          <div class="course-box-details">
+            <div class="course-box-details-top">
+              <h2>آموزش پروژه محور React.js</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- middle -->
+            <div class="course-box-details-middle">
+              <div class="course-box-details-middle-box">
+                <div class="discount-price">480000</div>
+                <div class="price">265000</div>
+              </div>
+              <div class="course-box-details-middle-box">
+                <div class="completed">دوره تکمیل شده</div>
+              </div>
+            </div>
+            <!-- details -->
+            <div class="course-box-details-details">
+              <div class="course-box-details-details-students">
+                <i class="fas fa-graduation-cap"></i>
+                <span>241</span>
+              </div>
+              <div class="course-box-details-details-category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <span>فرانت اند</span>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="course-box-details-bottom">
+              <a href="#">
+                مشاهده و شروع دوره
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- BOX -->
+        <div class="course-box">
+          <div class="course-box-image">
+            <img src="./assets/images/react.png" alt="" />
+          </div>
+          <div class="course-box-details">
+            <div class="course-box-details-top">
+              <h2>آموزش جامع جاوا اسکریپت</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- middle -->
+            <div class="course-box-details-middle">
+              <div class="course-box-details-middle-box">
+                <div class="discount-price">480000</div>
+                <div class="price">265000</div>
+              </div>
+              <div class="course-box-details-middle-box">
+                <div class="completed">دوره تکمیل شده</div>
+              </div>
+            </div>
+            <!-- details -->
+            <div class="course-box-details-details">
+              <div class="course-box-details-details-students">
+                <i class="fas fa-graduation-cap"></i>
+                <span>241</span>
+              </div>
+              <div class="course-box-details-details-category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <span>فرانت اند</span>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="course-box-details-bottom">
+              <a href="#">
+                مشاهده و شروع دوره
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- SECOND ROUND -->
+        <!-- BOX -->
+        <div class="course-box">
+          <div class="course-box-image">
+            <img src="./assets/images/css.png" alt="" />
+          </div>
+          <div class="course-box-details">
+            <div class="course-box-details-top">
+              <h2>آموزش جامع جاوا اسکریپت</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- middle -->
+            <div class="course-box-details-middle">
+              <div class="course-box-details-middle-box">
+                <div class="discount-price">480000</div>
+                <div class="price">265000</div>
+              </div>
+              <div class="course-box-details-middle-box">
+                <div class="completed">دوره تکمیل شده</div>
+              </div>
+            </div>
+            <!-- details -->
+            <div class="course-box-details-details">
+              <div class="course-box-details-details-students">
+                <i class="fas fa-graduation-cap"></i>
+                <span>241</span>
+              </div>
+              <div class="course-box-details-details-category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <span>فرانت اند</span>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="course-box-details-bottom">
+              <a href="#">
+                مشاهده و شروع دوره
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- BOX -->
+        <div class="course-box">
+          <div class="course-box-image">
+            <img src="./assets/images/php.webp" alt="" />
+          </div>
+          <div class="course-box-details">
+            <div class="course-box-details-top">
+              <h2>آموزش جامع جاوا اسکریپت</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- middle -->
+            <div class="course-box-details-middle">
+              <div class="course-box-details-middle-box">
+                <div class="discount-price">4،599،000</div>
+                <div class="price">1،580،000</div>
+              </div>
+              <div class="course-box-details-middle-box">
+                <div class="completed">دوره تکمیل شده</div>
+              </div>
+            </div>
+            <!-- details -->
+            <div class="course-box-details-details">
+              <div class="course-box-details-details-students">
+                <i class="fas fa-graduation-cap"></i>
+                <span>241</span>
+              </div>
+              <div class="course-box-details-details-category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <span>فرانت اند</span>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="course-box-details-bottom">
+              <a href="#">
+                مشاهده و شروع دوره
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- BOX -->
+        <div class="course-box">
+          <div class="course-box-image">
+            <img src="./assets/images/html.jpg" alt="" />
+          </div>
+          <div class="course-box-details">
+            <div class="course-box-details-top">
+              <h2>آموزش جامع جاوا اسکریپت</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- middle -->
+            <div class="course-box-details-middle">
+              <div class="course-box-details-middle-box">
+                <div class="discount-price">1،250،000</div>
+                <div class="price">850،000</div>
+              </div>
+              <div class="course-box-details-middle-box">
+                <div class="completed">دوره تکمیل شده</div>
+              </div>
+            </div>
+            <!-- details -->
+            <div class="course-box-details-details">
+              <div class="course-box-details-details-students">
+                <i class="fas fa-graduation-cap"></i>
+                <span>241</span>
+              </div>
+              <div class="course-box-details-details-category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <span>فرانت اند</span>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="course-box-details-bottom">
+              <a href="#">
+                مشاهده و شروع دوره
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- BOX -->
+        <div class="course-box">
+          <div class="course-box-image">
+            <img src="./assets/images/mysql.jpg" alt="" />
+          </div>
+          <div class="course-box-details">
+            <div class="course-box-details-top">
+              <h2>آموزش جامع جاوا اسکریپت</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- middle -->
+            <div class="course-box-details-middle">
+              <div class="course-box-details-middle-box">
+                <div class="discount-price">5،545،000</div>
+                <div class="price">8،200،0000</div>
+              </div>
+              <div class="course-box-details-middle-box">
+                <div class="completed">دوره تکمیل شده</div>
+              </div>
+            </div>
+            <!-- details -->
+            <div class="course-box-details-details">
+              <div class="course-box-details-details-students">
+                <i class="fas fa-graduation-cap"></i>
+                <span>241</span>
+              </div>
+              <div class="course-box-details-details-category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <span>فرانت اند</span>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="course-box-details-bottom">
+              <a href="#">
+                مشاهده و شروع دوره
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog">
+      <div class="section-header">
+        <div class="section-header-title">
+          <h3>دوره های وبسایت</h3>
+          <h2>شروع مسیر برنامه نویسی</h2>
+        </div>
+        <div class="section-header-nav">
+          <a href="#">
+            مشاهده سایر دوره ها
+            <i class="fas fa-arrow-circle-left"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="blog-container">
+        <!-- BOX -->
+        <div class="blog-box">
+          <div class="blog-box-image">
+            <img src="./assets/images/blog/dev-desk.jpg" width="100%" alt="" />
+          </div>
+          <div class="blog-box-bottom">
+            <!-- content -->
+            <div class="blog-box-content">
+              <h2>بهترین سال زندگی شما</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- details -->
+            <div class="blog-box-details">
+              <div class="blog-box-category">برنامه نویسی</div>
+              <div class="blog-box-writer">ادمین</div>
+              <div class="blog-box-like">
+                <button>
+                  <i class="fas fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="blog-box-buttons">
+              <a href="">
+                بیشتر بخوانید
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- BOX -->
+        <div class="blog-box">
+          <div class="blog-box-image">
+            <img src="./assets/images/blog/monitors.jpeg" width="100%" alt="" />
+          </div>
+          <div class="blog-box-bottom">
+            <!-- content -->
+            <div class="blog-box-content">
+              <h2>بهترین سال زندگی شما</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- details -->
+            <div class="blog-box-details">
+              <div class="blog-box-category">برنامه نویسی</div>
+              <div class="blog-box-writer">ادمین</div>
+              <div class="blog-box-like">
+                <button>
+                  <i class="fas fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="blog-box-buttons">
+              <a href="">
+                بیشتر بخوانید
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- BOX -->
+        <div class="blog-box">
+          <div class="blog-box-image">
+            <img src="./assets/images/blog/code.jpg" width="100%" alt="" />
+          </div>
+          <div class="blog-box-bottom">
+            <!-- content -->
+            <div class="blog-box-content">
+              <h2>بهترین سال زندگی شما</h2>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است...
+              </p>
+            </div>
+            <!-- details -->
+            <div class="blog-box-details">
+              <div class="blog-box-category">برنامه نویسی</div>
+              <div class="blog-box-writer">ادمین</div>
+              <div class="blog-box-like">
+                <button>
+                  <i class="fas fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="blog-box-buttons">
+              <a href="">
+                بیشتر بخوانید
+                <i class="fas fa-arrow-circle-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- END LAST BOX -->
+      </div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

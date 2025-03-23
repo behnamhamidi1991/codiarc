@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOX ICON -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/utilities.css" />
+    <link rel="stylesheet" href="./src/css/light.css" />
+
+    <!-- ICON -->
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>آموزش برنامه نویسی و توسعه</title>
+  </head>
+  <body dir="rtl">
+    <!-- HEADER -->
+    <header id="header" class="header">
+      <div class="header-right">
+        <div class="header-logo">
+          <a href="">
+            <img src="./src/assets/favicon/logo-png-fit.png" alt="logo" />
+          </a>
+        </div>
+        <div class="header-menu">
+          <div class="hamburger">
+            <button id="hamburger">
+              <i class="bx bx-menu"></i>
+            </button>
+          </div>
+          <ul>
+            <li>
+              <a href="#">صفحه اصلی</a>
+            </li>
+            <li>
+              <button id="header-dropdown" class="header-dropdown">
+                <i class="bx bx-chevron-down"></i>
+                دوره ها
+              </button>
+            </li>
+            <li>
+              <a href="#">ویدیوها</a>
+            </li>
+            <li>
+              <a href="#">وبلاگ</a>
+            </li>
+            <li>
+              <a href="#">کلاس آنلاین</a>
+            </li>
+            <li>
+              <a href="#">تماس</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-left">
+        <!-- User -->
+        <div class="user">
+          <a href="">
+            <i class="bx bxs-user-circle"></i>
+          </a>
+        </div>
+        <!-- Dark Light Toggle -->
+        <div class="light-dark-toggle">
+          <button>
+            <i class="bx bx-sun"></i>
+          </button>
+        </div>
+        <!-- Cart -->
+        <div class="cart">
+          <a href="">
+            <i class="bx bxs-cart-alt"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- header-courses -->
+    <div class="header-course-menu-container">
+      <div class="header-courses-menu">
+        <ul class="courses">
+          <li>
+            <a href="#">
+              <i class="bx bxs-caret-right-circle"></i>
+              دوره های آنلاین
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxl-microsoft"></i>
+              کلاسهای آنلاین
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxs-webcam"></i>
+              بوت کمپ
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxs-timer"></i>
+              کرش کورس ها
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxs-gift"></i>
+              دوره های رایگان
+            </a>
+          </li>
+        </ul>
+
+        <div class="header-course-wrapper">
+          <div class="header-course">
+            <a href="">
+              <img
+                src="./src/assets/images/learning/Resized-blog-thumbnail-26.jpg"
+                width="200px"
+                alt=""
+              />
+              <div class="header-course-details">
+                <h3>مسیر و نقشه راه فرانت</h3>
+                <h2>دوره های آموزشی فرانت</h2>
+                <div class="info-box">
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>45</span>
+                  </div>
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>218</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="header-course">
+            <a href="">
+              <img
+                src="./src/assets/images/learning/Thoughtful young programmer coding on computer in the evening at home-1-1.webp"
+                width="200px"
+                alt=""
+              />
+              <div class="header-course-details">
+                <h3>مسیر و نقشه راه بک اند</h3>
+                <h2>مسیر بک اند رو از اینجا شروع کن</h2>
+                <div class="info-box">
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>45</span>
+                  </div>
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>218</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-wrapper">
+        <div class="hero-title">
+          <h1>به کدیارک خوش آمدید</h1>
+          <h2>مسیر برنامه نویسی رو از همینجا شروع کنید</h2>
+        </div>
+        <div class="search-bar">
+          <form>
+            <input type="text" placeholder="جستوجوی مطلب" />
+            <button>
+              <i class="bx bx-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="app-wrapper">
+      <section id="course-slider" class="course-slider">
+        <!-- Main Content Header -->
+        <div class="section-header">
+          <div class="section-header-title">
+            <h3>دوره های برتر</h3>
+            <h2>شروع مسیر برنامه نویسی</h2>
+          </div>
+          <div class="section-header-link">
+            <a href="#">
+              <span>سایر دوره ها</span>
+              <i class="bx bxs-left-top-arrow-circle"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="course-slider-container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!-- COURSE -->
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./src/assets/images/courses/react.png" alt="" />
+                </div>
+                <div class="slider-details">
+                  <div class="slider-details-title">
+                    <h2>آموزش پروژه محور ری اکت</h2>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد ...
+                    </p>
+                  </div>
+                  <div class="price-status">
+                    <div class="course-price">
+                      <div class="main-price">589,000</div>
+                      <div class="off-price">345,000</div>
+                    </div>
+                    <div class="course-status-done">دوره تکمیل شده</div>
+                  </div>
+                  <div class="course-button">
+                    <a href="#">
+                      <span>مشاهده و شروع دوره</span>
+                      <i class="bx bxs-left-arrow-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- COURSE -->
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./src/assets/images/courses/js.jpg" alt="" />
+                </div>
+                <div class="slider-details">
+                  <div class="slider-details-title">
+                    <h2>آموزش پروژه محور ری اکت</h2>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد ...
+                    </p>
+                  </div>
+                  <div class="price-status">
+                    <div class="course-price">
+                      <div class="main-price">589,000</div>
+                      <div class="off-price">345,000</div>
+                    </div>
+                    <div class="course-status-progress">دوره در حال تکمیل</div>
+                  </div>
+                  <div class="course-button">
+                    <a href="#">
+                      <span>مشاهده و شروع دوره</span>
+                      <i class="bx bxs-left-arrow-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- COURSE -->
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./src/assets/images/courses/php.webp" alt="" />
+                </div>
+                <div class="slider-details">
+                  <div class="slider-details-title">
+                    <h2>آموزش پروژه محور ری اکت</h2>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد ...
+                    </p>
+                  </div>
+                  <div class="price-status">
+                    <div class="course-price">
+                      <div class="main-price">589,000</div>
+                      <div class="off-price">345,000</div>
+                    </div>
+                    <div class="course-status-pending">شروع دوره به زودی</div>
+                  </div>
+                  <div class="course-button">
+                    <a href="#">
+                      <span>مشاهده و شروع دوره</span>
+                      <i class="bx bxs-left-arrow-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- COURSE -->
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./src/assets/images/courses/laravel.jpg" alt="" />
+                </div>
+                <div class="slider-details">
+                  <div class="slider-details-title">
+                    <h2>آموزش پروژه محور ری اکت</h2>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد ...
+                    </p>
+                  </div>
+                  <div class="price-status">
+                    <div class="course-price">
+                      <div class="main-price">589,000</div>
+                      <div class="off-price">345,000</div>
+                    </div>
+                    <div class="course-status-pending">شروع دوره به زودی</div>
+                  </div>
+                  <div class="course-button">
+                    <a href="#">
+                      <span>مشاهده و شروع دوره</span>
+                      <i class="bx bxs-left-arrow-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 3000, // Time in milliseconds (3 seconds here)
+          disableOnInteraction: false, // Continue autoplay after user interaction
+        },
+        loop: true,
+      });
+    </script>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
