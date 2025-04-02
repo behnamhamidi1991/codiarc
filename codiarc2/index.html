@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOX ICON -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/utilities.css" />
+    <link rel="stylesheet" href="./src/css/dark.css" />
+
+    <!-- ICON -->
+    <link
+      rel="shortcut icon"
+      href="./src/assets/favicon/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>آموزش برنامه نویسی و توسعه</title>
+  </head>
+  <body dir="rtl" class="dark">
+    <!-- OFF Price -->
+    <div class="top-offer">
+      <h5>تخفیف ویژه به مناسبت روز پدر فقط تا آخر این ماه</h5>
+    </div>
+
+    <!-- Advertisment -->
+
+    <!-- HEADER -->
+    <header id="header" class="header">
+      <div class="header-right">
+        <div class="header-logo">
+          <a href="">
+            <img src="./src/assets/favicon/favicon.png" alt="logo" />
+          </a>
+        </div>
+        <div class="header-menu">
+          <div class="hamburger">
+            <button id="hamburger">
+              <i class="bx bx-menu"></i>
+            </button>
+          </div>
+          <ul>
+            <li>
+              <a href="#">صفحه اصلی</a>
+            </li>
+            <li>
+              <button id="header-dropdown" class="header-dropdown">
+                <i class="bx bx-chevron-down"></i>
+                دوره ها
+              </button>
+            </li>
+            <li>
+              <a href="#">ویدیوها</a>
+            </li>
+            <li>
+              <a href="#">وبلاگ</a>
+            </li>
+            <li>
+              <a href="#">تماس</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-left">
+        <!-- User -->
+        <div class="user">
+          <a href="">
+            <i class="bx bxs-user-circle"></i>
+          </a>
+        </div>
+        <!-- Dark Light Toggle -->
+        <div class="light-dark-toggle">
+          <button>
+            <i class="bx bx-sun"></i>
+          </button>
+        </div>
+        <!-- Cart -->
+        <div class="cart">
+          <a href="">
+            <i class="bx bxs-cart-alt"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navbar -->
+    <div class="mobile-navbar">
+      <!-- Page Links -->
+      <ul class="page-links">
+        <li>
+          <a href="">
+            <i class="bx bxs-home-alt-2"></i>
+            <span>صفحه اصلی</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="bx bxs-slideshow"></i>
+            <span>دوره ها</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="bx bxl-blogger"></i>
+            <span>بلاگ</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="bx bxs-phone"></i>
+            <span>تماس</span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- Page Links -->
+      <ul class="page-links">
+        <li>
+          <a href="">
+            <i class="bx bxs-user"></i>
+            <span>ثبت نام</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="bx bx-log-in"></i>
+            <span>ورود به اکانت</span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- Page Links -->
+      <ul class="mobile-nav-courses">
+        <li>
+          <a href="">
+            <img src="./src/assets/images/courses/js.jpg" alt="" />
+            <span>آموزش جامع جاوا اسکریپت</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./src/assets/images/courses/css.png" alt="" />
+            <span>آموزش جامع CSS</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./src/assets/images/courses/php.webp" alt="" />
+            <span>آموزش مقدماتی تا پیشرفته PHP</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./src/assets/images/courses/laravel.jpg" alt="" />
+            <span>آموزش پروژه محور لاراول</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Mega Menu -->
+    <div class="mega-menu">
+      <ul class="mega-menu-courses">
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/php.webp" alt="" />
+            <div>
+              <h2>دوره های آنلاین</h2>
+              <p>دوره های ویدیویی و آموزشی آنلاین</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/react.png" alt="" />
+            <div>
+              <h2>کلاس های آنلاین</h2>
+              <p>کلاس های آنلاین آموزش برنامه نویسی</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/mysql.jpg" alt="" />
+            <div>
+              <h2>بوت کمپ</h2>
+              <p>بوت کمپ برنامه نویسی و توسعه وب</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="mega-menu-courses">
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/php.webp" alt="" />
+            <div>
+              <h2>کرش کورس ها</h2>
+              <p>دوره های فشرده و سریع در قالب یک ویدیو</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/react.png" alt="" />
+            <div>
+              <h2>دوره های رایگان</h2>
+              <p>دوره های رایگان برنامه نویسی کدیارک</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/mysql.jpg" alt="" />
+            <div>
+              <div>
+                <h2>پادکست</h2>
+                <p>پادکست های صوتی کدیارک</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="mega-menu-courses">
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/js.jpg" alt="" />
+            <div>
+              <h2>پادکست</h2>
+              <p>پادکست های صوتی کدیارک</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/css.png" alt="" />
+            <div>
+              <h2>دوره آموزش مقدماتی CSS</h2>
+              <p>دوره آموزش توسعه وب - فرانت</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/laravel.jpg" alt="" />
+            <div>
+              <h2>دوره آموزش پروژه محور لاراول</h2>
+              <p>دوره آموزش توسعه وب - فرانت</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="mega-menu-courses">
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/js.jpg" alt="" />
+            <div>
+              <h2>پادکست</h2>
+              <p>پادکست های صوتی کدیارک</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/css.png" alt="" />
+            <div>
+              <h2>دوره آموزش مقدماتی CSS</h2>
+              <p>دوره آموزش توسعه وب - فرانت</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./src/assets/images/courses/laravel.jpg" alt="" />
+            <div>
+              <h2>دوره آموزش پروژه محور لاراول</h2>
+              <p>دوره آموزش توسعه وب - فرانت</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <section class="hero">
+      <div class="hero-top">
+        <div class="hero-heading">
+          <h1>به کدیارک خوش آمدید</h1>
+          <p>
+            ما اینجا در کنار هم آموزش می بینیم و به توسعه و پیشرفت هم کمک می
+            کنیم
+          </p>
+        </div>
+        <div class="hero-search">
+          <form>
+            <input type="text" placeholder="جستوجوی مطلب ..." />
+            <button type="submit">
+              <i class="bx bx-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="app-wrapper">
+      <!-- Testimonials -->
+      <div class="testimonials">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/3.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/4.avif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/5.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/6.avif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/7.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/8.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/9.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/10.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/11.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/12.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/13.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/14.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/15.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/16.jpg" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/18.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/19.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/20.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/21.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/22.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/23.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/assets/images/people/24.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- COURSES -->
+      <section class="courses">
+        <div class="section-header">
+          <div class="section-header-title">
+            <h3>شروع مسیر برنامه نویسی</h3>
+            <h2>دوره های آموزشی کدیارک</h2>
+          </div>
+          <div class="section-header-link">
+            <a href="#">
+              <span>مشاهده تمام دوره ها</span>
+              <i class="bx bx-left-arrow-circle"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="courses-wrapper">
+          <!-- Box -->
+          <div class="course-box">
+            <img src="./src/assets/images/courses/css.png" alt="" />
+
+            <div class="course-box-info-container">
+              <!-- Description -->
+              <div class="course-box-info-title-description">
+                <h2>دوره جامع آموزش مقدماتی HTML & CSS</h2>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  از طراحان گرافیک است ...
+                </p>
+              </div>
+              <!-- Price & Status -->
+              <div class="price-status">
+                <div class="price">
+                  <div class="old-price">4،890،000</div>
+                  <div class="off-price">1،980،000</div>
+                </div>
+                <div class="status process">
+                  <i class="bx bxs-videos"></i>
+                  <span>دوره در حال تکمیل</span>
+                </div>
+              </div>
+
+              <!-- Link -->
+              <div class="readmore">
+                <a href="">
+                  <span>مشاهده و شروع دوره</span>
+                  <i class="bx bx-left-arrow-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Box -->
+          <div class="course-box">
+            <img src="./src/assets/images/courses/php.webp" alt="" />
+            <div class="course-box-info-container">
+              <!-- Description -->
+              <div class="course-box-info-title-description">
+                <h2>آموزش صفر تا صد PHP پروژه محور</h2>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  از طراحان گرافیک است ...
+                </p>
+              </div>
+              <!-- Price & Status -->
+              <div class="price-status">
+                <div class="price">
+                  <div class="price">2،250،000</div>
+                </div>
+                <div class="status soon">
+                  <i class="bx bx-loader"></i>
+                  <span>شروع دوره به زودی</span>
+                </div>
+              </div>
+
+              <!-- Link -->
+              <div class="readmore">
+                <a href="">
+                  <span>مشاهده و شروع دوره</span>
+                  <i class="bx bx-left-arrow-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Box -->
+          <div class="course-box">
+            <img src="./src/assets/images/courses/laravel.jpg" alt="" />
+            <div class="course-box-info-container">
+              <!-- Description -->
+              <div class="course-box-info-title-description">
+                <h2>آموزش صفر تا صد PHP پروژه محور</h2>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  از طراحان گرافیک است ...
+                </p>
+              </div>
+              <!-- Price & Status -->
+              <div class="price-status">
+                <div class="price">
+                  <div class="price">2،250،000</div>
+                </div>
+                <div class="status done">
+                  <i class="bx bxs-check-shield"></i>
+                  <span>دوره به اتمام رسیده</span>
+                </div>
+              </div>
+
+              <!-- Link -->
+              <div class="readmore">
+                <a href="">
+                  <span>مشاهده و شروع دوره</span>
+                  <i class="bx bx-left-arrow-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Box -->
+          <div class="course-box">
+            <img src="./src/assets/images/courses/css.png" alt="" />
+
+            <div class="course-box-info-container">
+              <!-- Description -->
+              <div class="course-box-info-title-description">
+                <h2>دوره جامع آموزش مقدماتی HTML & CSS</h2>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  از طراحان گرافیک است ...
+                </p>
+              </div>
+              <!-- Price & Status -->
+              <div class="price-status">
+                <div class="price">
+                  <div class="old-price">4،890،000</div>
+                  <div class="off-price">1،980،000</div>
+                </div>
+                <div class="status process">
+                  <i class="bx bxs-videos"></i>
+                  <span>دوره در حال تکمیل</span>
+                </div>
+              </div>
+
+              <!-- Link -->
+              <div class="readmore">
+                <a href="">
+                  <span>مشاهده و شروع دوره</span>
+                  <i class="bx bx-left-arrow-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Box -->
+          <div class="course-box">
+            <img src="./src/assets/images/courses/php.webp" alt="" />
+            <div class="course-box-info-container">
+              <!-- Description -->
+              <div class="course-box-info-title-description">
+                <h2>آموزش صفر تا صد PHP پروژه محور</h2>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  از طراحان گرافیک است ...
+                </p>
+              </div>
+              <!-- Price & Status -->
+              <div class="price-status">
+                <div class="price">
+                  <div class="price">2،250،000</div>
+                </div>
+                <div class="status soon">
+                  <i class="bx bx-loader"></i>
+                  <span>شروع دوره به زودی</span>
+                </div>
+              </div>
+
+              <!-- Link -->
+              <div class="readmore">
+                <a href="">
+                  <span>مشاهده و شروع دوره</span>
+                  <i class="bx bx-left-arrow-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Box -->
+          <div class="course-box">
+            <img src="./src/assets/images/courses/laravel.jpg" alt="" />
+            <div class="course-box-info-container">
+              <!-- Description -->
+              <div class="course-box-info-title-description">
+                <h2>آموزش صفر تا صد PHP پروژه محور</h2>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  از طراحان گرافیک است ...
+                </p>
+              </div>
+              <!-- Price & Status -->
+              <div class="price-status">
+                <div class="price">
+                  <div class="price">2،250،000</div>
+                </div>
+                <div class="status done">
+                  <i class="bx bxs-check-shield"></i>
+                  <span>دوره به اتمام رسیده</span>
+                </div>
+              </div>
+
+              <!-- Link -->
+              <div class="readmore">
+                <a href="">
+                  <span>مشاهده و شروع دوره</span>
+                  <i class="bx bx-left-arrow-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Box -->
+          <div class="course-box">
+            <img src="./src/assets/images/courses/laravel.jpg" alt="" />
+            <div class="course-box-info-container">
+              <!-- Description -->
+              <div class="course-box-info-title-description">
+                <h2>آموزش صفر تا صد PHP پروژه محور</h2>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  از طراحان گرافیک است ...
+                </p>
+              </div>
+              <!-- Price & Status -->
+              <div class="price-status">
+                <div class="price">
+                  <div class="price">2،250،000</div>
+                </div>
+                <div class="status done">
+                  <i class="bx bxs-check-shield"></i>
+                  <span>دوره به اتمام رسیده</span>
+                </div>
+              </div>
+
+              <!-- Link -->
+              <div class="readmore">
+                <a href="">
+                  <span>مشاهده و شروع دوره</span>
+                  <i class="bx bx-left-arrow-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Box -->
+          <div class="course-box">
+            <img src="./src/assets/images/courses/laravel.jpg" alt="" />
+            <div class="course-box-info-container">
+              <!-- Description -->
+              <div class="course-box-info-title-description">
+                <h2>آموزش صفر تا صد PHP پروژه محور</h2>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  از طراحان گرافیک است ...
+                </p>
+              </div>
+              <!-- Price & Status -->
+              <div class="price-status">
+                <div class="price">
+                  <div class="price">2،250،000</div>
+                </div>
+                <div class="status done">
+                  <i class="bx bxs-check-shield"></i>
+                  <span>دوره به اتمام رسیده</span>
+                </div>
+              </div>
+
+              <!-- Link -->
+              <div class="readmore">
+                <a href="">
+                  <span>مشاهده و شروع دوره</span>
+                  <i class="bx bx-left-arrow-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="crash-courses">
+        <div class="section-header">
+          <div class="section-header-title">
+            <h3>کلی از وقتت رو سیو کن</h3>
+            <h2>دوره های تک جلسه ای کدیارک</h2>
+          </div>
+          <div class="section-header-link">
+            <a href="#">
+              <span>مشاهده تمام دوره ها</span>
+              <i class="bx bx-left-arrow-circle"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="crash-courses-container">
+          <!-- BOX -->
+          <div class="crash-course-box">
+            <a href="">
+              <img src="./src/assets/images/courses/js.jpg" alt="" />
+              <div class="crash-course-details">
+                <!-- TITLE AND DESCRIPTION -->
+                <div>
+                  <h2>دوره تک جلسه ای آموزش جاوا اسکریپت</h2>
+                </div>
+
+                <!-- STUDENTS & COMMENTS -->
+                <div class="students-comments">
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>255</span>
+                  </div>
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>46</span>
+                  </div>
+                  <div class="time">
+                    <i class="bx bx-timer"></i>
+                    <span>96 دقیقه</span>
+                  </div>
+                </div>
+                <!-- PRICE & TIME -->
+                <div class="price">
+                  <!-- <div class="main-price">250،000</div> -->
+                  <div class="off-price">45،000</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- BOX -->
+          <div class="crash-course-box">
+            <a href="">
+              <img src="./src/assets/images/courses/css2.png" alt="" />
+              <div class="crash-course-details">
+                <!-- TITLE AND DESCRIPTION -->
+                <div>
+                  <h2>دوره تک جلسه ای آموزش جاوا اسکریپت</h2>
+                </div>
+
+                <!-- STUDENTS & COMMENTS -->
+                <div class="students-comments">
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>255</span>
+                  </div>
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>46</span>
+                  </div>
+                  <div class="time">
+                    <i class="bx bx-timer"></i>
+                    <span>96 دقیقه</span>
+                  </div>
+                </div>
+                <!-- PRICE & TIME -->
+                <div class="price">
+                  <div class="main-price">250،000</div>
+                  <div class="off-price">99،000</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- BOX -->
+          <div class="crash-course-box">
+            <a href="">
+              <img src="./src/assets/images/courses/react.png" alt="" />
+              <div class="crash-course-details">
+                <!-- TITLE AND DESCRIPTION -->
+                <div>
+                  <h2>دوره تک جلسه ای آموزش جاوا اسکریپت</h2>
+                </div>
+
+                <!-- STUDENTS & COMMENTS -->
+                <div class="students-comments">
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>255</span>
+                  </div>
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>46</span>
+                  </div>
+                  <div class="time">
+                    <i class="bx bx-timer"></i>
+                    <span>96 دقیقه</span>
+                  </div>
+                </div>
+                <!-- PRICE & TIME -->
+                <div class="price">
+                  <div class="main-price">410,000</div>
+                  <div class="off-price">210،000</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- BOX -->
+          <div class="crash-course-box">
+            <a href="">
+              <img src="./src/assets/images/courses/react.png" alt="" />
+              <div class="crash-course-details">
+                <!-- TITLE AND DESCRIPTION -->
+                <div>
+                  <h2>دوره تک جلسه ای آموزش جاوا اسکریپت</h2>
+                </div>
+
+                <!-- STUDENTS & COMMENTS -->
+                <div class="students-comments">
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>255</span>
+                  </div>
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>46</span>
+                  </div>
+                  <div class="time">
+                    <i class="bx bx-timer"></i>
+                    <span>96 دقیقه</span>
+                  </div>
+                </div>
+                <!-- PRICE & TIME -->
+                <div class="price">
+                  <div class="main-price">250،000</div>
+                  <div class="off-price">99،000</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- BOX -->
+          <div class="crash-course-box">
+            <a href="">
+              <img src="./src/assets/images/courses/js.jpg" alt="" />
+              <div class="crash-course-details">
+                <!-- TITLE AND DESCRIPTION -->
+                <div>
+                  <h2>دوره تک جلسه ای آموزش جاوا اسکریپت</h2>
+                </div>
+
+                <!-- STUDENTS & COMMENTS -->
+                <div class="students-comments">
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>255</span>
+                  </div>
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>46</span>
+                  </div>
+                  <div class="time">
+                    <i class="bx bx-timer"></i>
+                    <span>96 دقیقه</span>
+                  </div>
+                </div>
+                <!-- PRICE & TIME -->
+                <div class="price">
+                  <div class="main-price">250،000</div>
+                  <div class="off-price">99،000</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- BOX -->
+          <div class="crash-course-box">
+            <a href="">
+              <img src="./src/assets/images/courses/css2.png" alt="" />
+              <div class="crash-course-details">
+                <!-- TITLE AND DESCRIPTION -->
+                <div>
+                  <h2>دوره تک جلسه ای آموزش جاوا اسکریپت</h2>
+                </div>
+
+                <!-- STUDENTS & COMMENTS -->
+                <div class="students-comments">
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>255</span>
+                  </div>
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>46</span>
+                  </div>
+                  <div class="time">
+                    <i class="bx bx-timer"></i>
+                    <span>96 دقیقه</span>
+                  </div>
+                </div>
+                <!-- PRICE & TIME -->
+                <div class="price">
+                  <div class="main-price">180,000</div>
+                  <div class="off-price">52,000</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- BOX -->
+          <div class="crash-course-box">
+            <a href="">
+              <img src="./src/assets/images/courses/css1.png" alt="" />
+              <div class="crash-course-details">
+                <!-- TITLE AND DESCRIPTION -->
+                <div>
+                  <h2>دوره تک جلسه ای آموزش جاوا اسکریپت</h2>
+                </div>
+
+                <!-- STUDENTS & COMMENTS -->
+                <div class="students-comments">
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>255</span>
+                  </div>
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>46</span>
+                  </div>
+                  <div class="time">
+                    <i class="bx bx-timer"></i>
+                    <span>96 دقیقه</span>
+                  </div>
+                </div>
+                <!-- PRICE & TIME -->
+                <div class="price">
+                  <!-- <div class="main-price">250،000</div> -->
+                  <div class="off-price">280,000</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- BOX -->
+          <div class="crash-course-box">
+            <a href="">
+              <img src="./src/assets/images/courses/react.png" alt="" />
+              <div class="crash-course-details">
+                <!-- TITLE AND DESCRIPTION -->
+                <div>
+                  <h2>دوره تک جلسه ای آموزش جاوا اسکریپت</h2>
+                </div>
+
+                <!-- STUDENTS & COMMENTS -->
+                <div class="students-comments">
+                  <div class="students">
+                    <i class="bx bxs-user"></i>
+                    <span>255</span>
+                  </div>
+                  <div class="comments">
+                    <i class="bx bx-chat"></i>
+                    <span>46</span>
+                  </div>
+                  <div class="time">
+                    <i class="bx bx-timer"></i>
+                    <span>96 دقیقه</span>
+                  </div>
+                </div>
+                <!-- PRICE & TIME -->
+                <div class="price">
+                  <div class="main-price">250،000</div>
+                  <div class="off-price">99،000</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-video">
+        <div class="section-header">
+          <div class="section-header-title">
+            <h3>وبلاگ و خبرنامه</h3>
+            <h2>مطالعه عامل اصلی رشد و توسعه فردی</h2>
+          </div>
+          <div class="section-header-link">
+            <a href="#">
+              <span>مشاهده تمام مطالب</span>
+              <i class="bx bx-left-arrow-circle"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="blog-video-wrapper">
+          <div class="video">
+            <!-- VIDEO BOX -->
+            <div class="video-box">
+              <a href="">
+                <img src="./src/assets/images/blog/monitors.jpeg" alt="" />
+                <div class="video-box-details">
+                  <h2>نمونه تایتل مطلب ویدویی</h2>
+                  <p>نوشته شده در 28 اردیبهشت 1404</p>
+                </div>
+              </a>
+            </div>
+            <!-- VIDEO BOX -->
+            <div class="video-box">
+              <a href="">
+                <img src="./src/assets/images/blog/monitors.jpeg" alt="" />
+                <div class="video-box-details">
+                  <h2>نمونه تایتل مطلب ویدویی</h2>
+                  <p>نوشته شده در 28 اردیبهشت 1404</p>
+                </div>
+              </a>
+            </div>
+            <!-- VIDEO BOX -->
+            <div class="video-box">
+              <a href="">
+                <img src="./src/assets/images/blog/monitors.jpeg" alt="" />
+                <div class="video-box-details">
+                  <h2>نمونه تایتل مطلب ویدویی</h2>
+                  <p>نوشته شده در 28 اردیبهشت 1404</p>
+                </div>
+              </a>
+            </div>
+            <!-- VIDEO BOX -->
+            <div class="video-box">
+              <a href="">
+                <img src="./src/assets/images/blog/monitors.jpeg" alt="" />
+                <div class="video-box-details">
+                  <h2>نمونه تایتل مطلب ویدویی</h2>
+                  <p>نوشته شده در 28 اردیبهشت 1404</p>
+                </div>
+              </a>
+            </div>
+            <!-- VIDEO BOX -->
+            <div class="video-box">
+              <a href="">
+                <img src="./src/assets/images/blog/monitors.jpeg" alt="" />
+                <div class="video-box-details">
+                  <h2>نمونه تایتل مطلب ویدویی</h2>
+                  <p>نوشته شده در 28 اردیبهشت 1404</p>
+                </div>
+              </a>
+            </div>
+            <!-- VIDEO BOX -->
+            <div class="video-box">
+              <a href="">
+                <img src="./src/assets/images/blog/monitors.jpeg" alt="" />
+                <div class="video-box-details">
+                  <h2>نمونه تایتل مطلب ویدویی</h2>
+                  <p>نوشته شده در 28 اردیبهشت 1404</p>
+                </div>
+              </a>
+            </div>
+            <!-- VIDEO BOX -->
+            <div class="video-box">
+              <a href="">
+                <img src="./src/assets/images/blog/monitors.jpeg" alt="" />
+                <div class="video-box-details">
+                  <h2>نمونه تایتل مطلب ویدویی</h2>
+                  <p>نوشته شده در 28 اردیبهشت 1404</p>
+                </div>
+              </a>
+            </div>
+            <!-- VIDEO BOX -->
+            <div class="video-box">
+              <a href="">
+                <img src="./src/assets/images/blog/monitors.jpeg" alt="" />
+                <div class="video-box-details">
+                  <h2>نمونه تایتل مطلب ویدویی</h2>
+                  <p>نوشته شده در 28 اردیبهشت 1404</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="blog">
+            <!-- BOX -->
+            <div class="blog-box">
+              <a href="">
+                <div class="blog-box-details">
+                  <div class="blox-box-title">
+                    <h2>نمونه تایتل وبلاگ جهت تست</h2>
+                    <p>
+                      نمونه متن برای بخش خبری وبلاگ که نمونه یک لورم ایپسوم می
+                      باشد و معنی خاصی نمی دهد و باید فقط تایپ شود که بتوان از
+                      طریق آن ...
+                    </p>
+                  </div>
+                  <div class="blog-box-bottom">
+                    <div class="writer">
+                      <i class="bx bx-edit"></i>
+                      <span>نویسنده: ادمین</span>
+                    </div>
+                    <div class="date">
+                      <i class="bx bx-calendar"></i>
+                      <span>28 اردیبهشت 1404</span>
+                    </div>
+                    <div class="category">
+                      <i class="bx bx-category"></i>
+                      <span>دسته بندی: فرانت</span>
+                    </div>
+                  </div>
+                </div>
+                <img src="./src/assets/images/blog/code.jpg" alt="" />
+              </a>
+            </div>
+            <!-- BOX -->
+            <div class="blog-box">
+              <a href="">
+                <div class="blog-box-details">
+                  <div class="blox-box-title">
+                    <h2>نمونه تایتل وبلاگ جهت تست</h2>
+                    <p>
+                      نمونه متن برای بخش خبری وبلاگ که نمونه یک لورم ایپسوم می
+                      باشد و معنی خاصی نمی دهد و باید فقط تایپ شود که بتوان از
+                      طریق آن ...
+                    </p>
+                  </div>
+                  <div class="blog-box-bottom">
+                    <div class="writer">
+                      <i class="bx bx-edit"></i>
+                      <span>نویسنده: ادمین</span>
+                    </div>
+                    <div class="date">
+                      <i class="bx bx-calendar"></i>
+                      <span>28 اردیبهشت 1404</span>
+                    </div>
+                    <div class="category">
+                      <i class="bx bx-category"></i>
+                      <span>دسته بندی: فرانت</span>
+                    </div>
+                  </div>
+                </div>
+                <img src="./src/assets/images/blog/dev-desk.jpg" alt="" />
+              </a>
+            </div>
+
+            <!-- BOX -->
+            <div class="blog-box">
+              <a href="">
+                <div class="blog-box-details">
+                  <div class="blox-box-title">
+                    <h2>نمونه تایتل وبلاگ جهت تست</h2>
+                    <p>
+                      نمونه متن برای بخش خبری وبلاگ که نمونه یک لورم ایپسوم می
+                      باشد و معنی خاصی نمی دهد و باید فقط تایپ شود که بتوان از
+                      طریق آن ...
+                    </p>
+                  </div>
+                  <div class="blog-box-bottom">
+                    <div class="writer">
+                      <i class="bx bx-edit"></i>
+                      <span>نویسنده: ادمین</span>
+                    </div>
+                    <div class="date">
+                      <i class="bx bx-calendar"></i>
+                      <span>28 اردیبهشت 1404</span>
+                    </div>
+                    <div class="category">
+                      <i class="bx bx-category"></i>
+                      <span>دسته بندی: فرانت</span>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  src="./src/assets/images/blog/1f6bc39c3cea28b0eec122345f7c7543.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <!-- BOX -->
+            <div class="blog-box">
+              <a href="">
+                <div class="blog-box-details">
+                  <div class="blox-box-title">
+                    <h2>نمونه تایتل وبلاگ جهت تست</h2>
+                    <p>
+                      نمونه متن برای بخش خبری وبلاگ که نمونه یک لورم ایپسوم می
+                      باشد و معنی خاصی نمی دهد و باید فقط تایپ شود که بتوان از
+                      طریق آن ...
+                    </p>
+                  </div>
+                  <div class="blog-box-bottom">
+                    <div class="writer">
+                      <i class="bx bx-edit"></i>
+                      <span>نویسنده: ادمین</span>
+                    </div>
+                    <div class="date">
+                      <i class="bx bx-calendar"></i>
+                      <span>28 اردیبهشت 1404</span>
+                    </div>
+                    <div class="category">
+                      <i class="bx bx-category"></i>
+                      <span>دسته بندی: فرانت</span>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  src="./src/assets/images/blog/1_ee9Ji2ToUxeYfj3YUQ1xsA.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <!-- BOX -->
+            <div class="blog-box">
+              <a href="">
+                <div class="blog-box-details">
+                  <div class="blox-box-title">
+                    <h2>نمونه تایتل وبلاگ جهت تست</h2>
+                    <p>
+                      نمونه متن برای بخش خبری وبلاگ که نمونه یک لورم ایپسوم می
+                      باشد و معنی خاصی نمی دهد و باید فقط تایپ شود که بتوان از
+                      طریق آن ...
+                    </p>
+                  </div>
+                  <div class="blog-box-bottom">
+                    <div class="writer">
+                      <i class="bx bx-edit"></i>
+                      <span>نویسنده: ادمین</span>
+                    </div>
+                    <div class="date">
+                      <i class="bx bx-calendar"></i>
+                      <span>28 اردیبهشت 1404</span>
+                    </div>
+                    <div class="category">
+                      <i class="bx bx-category"></i>
+                      <span>دسته بندی: فرانت</span>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  src="./src/assets/images/blog/1_8ci-8RMFL96wxa6dmtgK7g.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <!-- Footer Top -->
+      <div class="footer-top">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="bx bxl-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxl-telegram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxl-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxs-video"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Footer Logo -->
+      <div class="footer-logo-about">
+        <img src="./src/assets/favicon/favicon.png" alt="" />
+
+        <p>
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+        </p>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="footer-links">
+        <!-- COL -->
+        <div>
+          <h3>صفحات وبسایت</h3>
+          <ul class="footer-links-col">
+            <li>
+              <a href="">
+                <i class="bx bxl-blogger"></i>
+                وبلاگ</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <i class="bx bxs-videos"></i>
+                دوره ها</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <i class="bx bxs-phone"></i>
+                تماس با ما</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- COL -->
+        <div>
+          <h3>کاربری</h3>
+          <ul class="footer-links-col">
+            <li>
+              <a href="">
+                <i class="bx bxs-user"></i>
+                ثبت نام</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <i class="bx bx-log-in"></i>
+                ورود</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <i class="bx bx-support"></i>
+                پشتیبانی</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- COL -->
+        <div>
+          <h3>صفحات وبسایت</h3>
+          <ul class="footer-links-col">
+            <li>
+              <a href="">
+                <i class="bx bxs-graduation"></i>
+                نقشه راه فرانت</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <i class="bx bxs-graduation"></i>
+                نقشه راه بک اند</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <i class="bx bxs-graduation"></i>
+                برنامه نویسی فول استک</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- COL -->
+        <div>
+          <h3>لینک های کاربردی</h3>
+          <ul class="footer-links-col">
+            <li>
+              <a href="">
+                <i class="bx bxs-graduation"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="bx bxs-graduation"></i>
+                نقشه راه بک اند</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <i class="bx bxs-graduation"></i>
+                برنامه نویسی فول استک</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Copyright -->
+      <div class="footer-copyright">
+        تمامی حقوق برای کدیارک محفوظ می باشد - 1404
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

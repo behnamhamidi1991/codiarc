@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "iranYekan";
+  src: url("../assets/fonts/iranyekanwebregular.ttf");
+}
+@font-face {
+  font-family: "iranYekanBold";
+  src: url("../assets/fonts/iranyekanwebbold.ttf");
+}
+@font-face {
+  font-family: "iranYekanBlack";
+  src: url("../assets/fonts/iranyekanwebextrablack.ttf");
+}
+@font-face {
+  font-family: "iranYekanExtraBlack";
+  src: url("../assets/fonts/iranyekanwebextrablack.ttf");
+}
+@font-face {
+  font-family: "iranYekanThin";
+  src: url("../assets/fonts/iranyekanwebthin.ttf");
+}
+
+@font-face {
+  font-family: "faNum";
+  src: url("../assets/fonts/IRANYekanXFaNum-Regular.ttf");
+}
+
+:root {
+  --bg-color: #060818;
+  --primary-color: #161a2b;
+  --primary-blue: #4361ee;
+  --secondary-blue: #152143;
+  --primary-sky: #2196f3;
+  --secondary-sky: #0b2f52;
+  --primary-green: #00ab55;
+  --secondary-green: #0c272b;
+  --primary-yellow: #e2a03f;
+  --secondary-yellow: #282625;
+  --primary-red: #e7515a;
+  --secondary-red: #2c1c2b;
+  --primary-purple: #805dca;
+  --secondary-purple: #1d1a3b;
+  --primary-gray: #3b3f5c;
+  --secondary-gray: #181e2e;
+  --light-color: #fff;
+  --secondary-light: #eee;
+  --primary-text: #848ca8;
+  --secondary-text: #c2c6d3;
+}
+
+.info-box {
+  display: flex;
+  font-family: "faNum";
+  align-items: center;
+  gap: 10px;
+}
+
+.info-box i {
+  font-size: 16px;
+}
+
+.info-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.info-box div span {
+  font-size: 14px;
+}
+
+/* SECTION HEADER */
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-text);
+  align-items: center;
+  margin: 10px 0;
+}
+
+.section-header .section-header-title h3 {
+  font-size: 13px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+.section-header .section-header-title h2 {
+  font-size: 16px;
+  user-select: none;
+}
+
+.section-header .section-header-link {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-header .section-header-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-text);
+  font-size: 16px;
+  gap: 5px;
+}
+
+.section-header .section-header-link a i {
+  font-size: 20px;
+}
+
+.section-header .section-header-link a:hover {
+  color: var(--primary-blue);
+}
+
+.hero-left-bottom-courses {
+  margin-top: 50px;
+}
+
+.readmore a {
+  background-color: var(--secondary-light);
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: var(--primary-color);
+  transition: all ease-in-out 0.1s;
+}
+
+.readmore a:hover {
+  background-color: #e4e4e4;
+}

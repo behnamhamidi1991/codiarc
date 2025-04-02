@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "iranYekan";
+  src: url("../assets/fonts/iranyekanwebregular.ttf");
+}
+@font-face {
+  font-family: "iranYekanBold";
+  src: url("../assets/fonts/iranyekanwebbold.ttf");
+}
+@font-face {
+  font-family: "iranYekanBlack";
+  src: url("../assets/fonts/iranyekanwebextrablack.ttf");
+}
+@font-face {
+  font-family: "iranYekanExtraBlack";
+  src: url("../assets/fonts/iranyekanwebextrablack.ttf");
+}
+@font-face {
+  font-family: "iranYekanThin";
+  src: url("../assets/fonts/iranyekanwebthin.ttf");
+}
+
+@font-face {
+  font-family: "faNum";
+  src: url("../assets/fonts/IRANYekanXFaNum-Regular.ttf");
+}
+
+@font-face {
+  font-family: "faNumBold";
+  src: url("../assets/fonts/IRANYekanXFaNum-Bold.ttf");
+}
+
+:root {
+  --bg-color: #060818;
+  --primary-color: #161a2b;
+  --primary-blue: #4361ee;
+  --secondary-blue: #152143;
+  --primary-sky: #2196f3;
+  --secondary-sky: #0b2f52;
+  --primary-green: #00ab55;
+  --secondary-green: #0c272b;
+  --primary-yellow: #e2a03f;
+  --secondary-yellow: #282625;
+  --primary-red: #e7515a;
+  --secondary-red: #2c1c2b;
+  --primary-purple: #805dca;
+  --secondary-purple: #1d1a3b;
+  --primary-gray: #3b3f5c;
+  --secondary-gray: #181e2e;
+  --light-color: #fff;
+  --secondary-light: #eee;
+  --primary-text: #848ca8;
+  --secondary-text: #c2c6d3;
+}
+
+body.dark {
+  background-color: var(--bg-color);
+  color: var(--primary-text);
+}
+
+.dark #header {
+  background-color: var(--primary-color);
+  color: var(--primary-text);
+}
+
+.dark #header .header-right .header-menu ul li a {
+  color: var(--secondary-text);
+}
+
+.dark #header .header-right .header-menu .header-dropdown {
+  color: var(--secondary-text);
+}
+
+.dark #header .header-left .user a {
+  color: var(--secondary-text);
+}
+
+.dark #header .header-left .user a:hover {
+  color: var(--secondary-text);
+}
+
+.dark #header .header-left .light-dark-toggle button {
+  color: var(--secondary-text);
+}
+
+.dark #header .header-left .cart a {
+  color: var(--secondary-text);
+}
+
+.dark .mega-menu {
+  background-color: var(--secondary-gray);
+}
+
+.dark .mega-menu-courses li a {
+  color: var(--secondary-text);
+  transition: all ease-in-out 0.1s;
+}
+
+.dark .mega-menu-courses li a:hover {
+  color: var(--primary-sky);
+}
+
+.dark .courses .courses-wrapper .course-box {
+  background-color: var(--primary-color);
+}
+
+.courses
+  .courses-wrapper
+  .course-box
+  .course-box-info-container
+  .price-status
+  .status.soon {
+  background-color: var(--secondary-red);
+  color: var(--primary-red);
+}
+
+.courses
+  .courses-wrapper
+  .course-box
+  .course-box-info-container
+  .price-status
+  .status.done {
+  background-color: var(--secondary-green);
+  color: var(--primary-green);
+}
+
+.courses
+  .courses-wrapper
+  .course-box
+  .course-box-info-container
+  .price-status
+  .status.process {
+  background-color: var(--secondary-yellow);
+  color: var(--primary-yellow);
+}
+
+.dark .readmore a {
+  background-color: var(--bg-color);
+  color: var(--secondary-text);
+  transition: all ease-in-out 0.1s;
+}
+
+.dark .readmore a:hover {
+  background-color: var(--secondary-gray);
+  color: var(--primary-sky);
+  transform: translateX(-1px);
+}
+
+.dark .crash-courses .crash-courses-container .crash-course-box a {
+  color: var(--secondary-text);
+}
+
+.dark .blog-video .blog-video-wrapper .blog {
+  background-color: var(--primary-color);
+  color: var(--secondary-text);
+}
+
+.dark .blog-video .blog-video-wrapper .blog .blog-box a {
+  color: var(--secondary-text);
+  border-bottom: 1px solid var(--secondary-text);
+}
+
+.dark .footer {
+  background-color: var(--primary-color);
+}
+
+.dark .footer .footer-top ul {
+  border-bottom: 1px solid var(--primary-gray);
+}
+
+.dark .footer .footer-top ul li a {
+  color: var(--secondary-text);
+}
+
+.footer .footer-logo-about {
+  border-bottom: 1px solid var(--primary-gray);
+}
+
+.dark .footer .footer-links {
+  border-bottom: 1px solid var(--primary-gray);
+}
+
+.dark .footer .footer-links .footer-links-col li a {
+  color: var(--primary-text);
+}
+
+.dark .footer .footer-links .footer-links-col li a i {
+  background-color: var(--bg-color);
+  color: var(--secondary-text);
+}
